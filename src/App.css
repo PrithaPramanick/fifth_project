@@ -1,0 +1,46 @@
+html, body{
+  margin:0;
+  padding:0;
+  height:100%;
+  font-family:Arial, Helvetica, sans-serif;
+ }
+
+
+body{
+  background-image: url('/public/images/a.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  overflow:hidden;
+ }
+
+.login{
+
+margin-left: 40% ;
+ 
+ }
+
+ form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+span {
+  color: red;
+  font-size: 12px;
+  margin-top: -8px;
+  margin-bottom: 10px;
+}
